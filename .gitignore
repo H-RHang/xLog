@@ -1,0 +1,24 @@
+
+##########################################
+#git add .
+#git commit -m 'update .gitignore'
+##########################################
+
+
+!debug.ini  # 该文件不忽略
+*.ini
+JLinkLog.txt
+Listings
+DebugConfig
+Objects
+.vscode
+*.uvguix.*
+*.si4project
+SI
+*.TMP
+*.hex
+*.map
+*.lnp
+*.htm
+*.sct
+ExtDll.iex
